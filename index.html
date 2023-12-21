@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+                <img src="icons/logo.png" alt="logo">
+                <nav class="navbar-nav">
+                    <ul class="navbar-menu">
+                        <li class="navbar-item">
+                            <a href="#skills" class="navbar-link">Программы</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#portfolio" class="navbar-link">Портфолио</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#buy" class="navbar-link">Заказать сайт</a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <main>
+        <div class="first">
+                <h1>ВЕРСТКА САЙТОВ</h1>
+                <h2>HTML/CSS</h2>
+        </div>
+        <div class="second">
+            <article id="skills"><h2>ИСПОЛЬЗУЕМЫЕ ПРОГРАММЫ</h2></article>
+            <div class="prog">
+                <img src="../icons/figma.png" alt="">
+                <img src="../icons/vscode.png" alt="">
+                <img src="../icons/html5.png" alt="">
+            </div>
+        </div>
+        <div id="portfolio" class="third">
+            <h2>ПРИМЕРЫ РАБОТ</h2>
+           <div class="examples">
+            <img src="images/bees.png" alt="Пчелы">
+            <img src="images/melody.png" alt="ЖК Мелодия">
+            <img src="images/vizitka.png" alt="Сайт-визитка">
+           </div>
+        </div>   
+        <div id="buy" class="fourth">
+            <h2>ОСТАВИТЬ ЗАЯВКУ НА ЗАКАЗ</h2>
+            <div class="form">
+                <form>      
+                    <input name="name" type="text" class="feedback-input" placeholder="Имя" />   
+                    <input name="email" type="text" class="feedback-input" placeholder="Почта" />
+                    <textarea name="text" class="feedback-input" placeholder="Сообщение"></textarea>
+                    <input type="submit" value="Отправить"/>
+                  </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contacts">
+            <div class="icons">
+                <a href="https://github.com/voshlesnaya" target="_blank"><img src="icons/github.png" alt=""></a>
+                <a href="https://vk.com/voshlesnaya"  target="_blank"><img src="icons/vk.png" alt=""></a>
+            </div>
+            <div class="text-footer">
+                <h4>Номер телефона: +7(999)-581-87-76</h4>
+                <h4>Почта: anna.abramovskikhh@mail.ru</h4>
+            </div>
+        </div>
+    </footer>
+</body>
